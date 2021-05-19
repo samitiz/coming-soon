@@ -35,3 +35,19 @@ h2 {
     height: 50vh;
     margin-top: 20px;
 }
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    .day,
+    .hour,
+    .minute,
+    .second {
+        font-size: 1rem;
+    }
+    .waiting {
+        height: 50vh;
+        width: 300px;
+        margin-top: 20px;
+    }
+}
