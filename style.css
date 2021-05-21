@@ -4,9 +4,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 body {
     font-family: "lato", sans-serif;
+}
+header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background: #233037;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+span {
+    position: absolute;
+    color: #fff;
+    left: 5%;
+    top: 26px;
+}
+span h {
+    color: #ffde59;
 }
 h2 {
     font-size: 3rem;
@@ -35,6 +63,62 @@ h2 {
     height: 50vh;
     margin-top: 20px;
 }
+footer {
+    background: #fff;
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding: 30px;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    margin: 4px auto;
+    line-height: 22px;
+    font-size: 14px;
+}
+.footer-content p h {
+    font-weight: bold;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a i {
+    color: black;
+    font-size: 1.5rem;
+    transition: color 0.4s ease;
+}
+.socials a:hover i {
+    color: dodgerblue;
+}
+.footer-bottom {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
 @media only screen and (max-width: 500px) {
     h2 {
         font-size: 1.5rem;
