@@ -27,7 +27,7 @@ header {
     height: 60px;
     cursor: pointer;
 }
-span {
+.navbar span {
     position: absolute;
     color: #fff;
     left: 5%;
@@ -81,7 +81,7 @@ footer {
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 .footer-content p {
     margin: 4px auto;
@@ -108,6 +108,9 @@ footer {
 .socials a:hover i {
     color: dodgerblue;
 }
+.socials a i {
+    font-size: 1.5rem;
+}
 .footer-bottom {
     width: 100%;
     padding: 5px 0;
@@ -133,5 +136,22 @@ footer {
         height: 50vh;
         width: 300px;
         margin-top: 20px;
+    }
+    .navbar img {
+        left: 2px;
+    }
+    .navbar span {
+        left: 13%;
+    }
+    .footer-content h3 {
+        padding: 2px 0;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .socials a i {
+        font-size: 1.3rem;
+    }
+    .footer-bottom p {
+        font-size: 12px;
     }
 }
